@@ -1,0 +1,50 @@
+body {
+  /* font-size: 14px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #f4f4f4; */
+  padding-top: 70px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.btn-theme {
+  background-color: rgb(238, 111, 27);
+  border-color: rgb(238, 111, 27);
+}
+.bg-theme-light {
+
+  background-color: #ffe8d9;
+
+}
+
+.bg-theme {
+
+  background-color: rgb(238, 111, 27);
+
+}
+
+.btn-theme:hover {
+  background-color: rgb(238, 111, 27);
+  border-color: rgb(238, 111, 27);
+}
+
+ table th {
+  font-weight: bold !important;
+}
+
+footer {
+  background-color: rgba(230, 230, 230,0.4);
+}
+
+
+@media (max-width: 1024px) {
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+ 
+  background-image: none;
+  
+}
+}
